@@ -1,2 +1,12 @@
-# portfolio-next-1
- Portfolio test with Next.js
+# Portfolio
+
+Created with Next.js
+
+## To start
+
+Download or clone from GitHub, then
+```
+npm install
+```
+
+Enjoy!
