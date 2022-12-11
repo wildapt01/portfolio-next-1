@@ -1,4 +1,7 @@
 .footer {
   text-align: center;
-  font-size: 0.3em;
+  font-size: 0.7em;
+  height: 10vh;
+  bottom: 0;
+  position: sticky;
 }

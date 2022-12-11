@@ -8,8 +8,12 @@ const Navbar = () => {
       <div>
         <Image className={styles.navlogo} src="/clipart2381085.png" alt="Computer Science Engineering Logos@clipartmax.com" width={70} height={70} />
       </div>
-      <Link href="/">Home</Link>
-      <Link href="/about">About</Link>
+      <div className={styles.nav_tabs}>
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
+        <Link href="/projects">Projects</Link>
+       </div>
+
     </nav>
   );
 }

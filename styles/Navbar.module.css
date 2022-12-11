@@ -1,0 +1,25 @@
+.navbar{
+  height: 10vh;
+  top: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.navlogo{
+  margin-top: 0.5em;
+}
+
+.nav_tabs{
+  width: 50vw;
+  padding-top: 1.5em;
+  padding-left: 20vw;
+  justify-content: space-around;
+  font-size: 0.8em;
+}
+
+.nav_tabs> a{
+  padding: 1.2em ;
+  color:rgb(122, 182, 231);
+}
