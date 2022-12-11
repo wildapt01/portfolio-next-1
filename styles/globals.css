@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 
-body {
+body, nav, Link {
   background-color: #1d1b30;
   color: rgb(122, 182, 231);
   font-family: 'Poppins', sans-serif;
