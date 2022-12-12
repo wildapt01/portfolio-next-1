@@ -17,6 +17,7 @@
   padding-left: 20vw;
   justify-content: space-around;
   font-size: 0.8em;
+  border-bottom: 2px solid grey;
 }
 
 .nav_tabs> a{
