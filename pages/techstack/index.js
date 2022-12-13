@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Divider from "../../components/Divider";
 import styles from "../../styles/TechStack.module.css";
 
 const TechStack = () => {
@@ -9,7 +10,11 @@ const TechStack = () => {
         <meta name="tech stack" content="a few technologies" />
       </Head>
       <div className="container">
-        <h2>Technologies</h2>
+        <section className="section-title">
+          <Divider />
+          <h2>Technologies</h2>
+        </section>
+
         <section className={styles.cards}>
           <div className={styles.card}>Front End</div>
           <div className={styles.card}>Back End</div>
