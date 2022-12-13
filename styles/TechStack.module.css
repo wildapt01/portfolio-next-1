@@ -1,0 +1,11 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  height: 50vh;
+  width: 12vw;
+  color: black;
+  border-radius: 0.5em;
+  background-color: #a7b5bf;
+}
