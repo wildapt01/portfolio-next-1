@@ -17,6 +17,7 @@
   },
   "plugins": ["react"],
   "rules": {
+    "comma-dangle": "off",
     "prettier/prettier": [
       "error",
       {
