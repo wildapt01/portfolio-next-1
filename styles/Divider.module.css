@@ -1,0 +1,8 @@
+.divider {
+  width: 4em;
+  height: 0.35em;
+  border-radius: 0.5em;
+  margin: 1.5em 0 1.5em 1em;
+  background: linear-gradient(270deg, #f46737 0%, #7311eb 100%);
+  /* background: linear-gradient(270deg, #13adc7 0%, #945dd6 100%); */
+}

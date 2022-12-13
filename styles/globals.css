@@ -33,3 +33,8 @@ Link {
   font-size: 1.55rem;
   margin-bottom: 1.5rem;
 }
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
