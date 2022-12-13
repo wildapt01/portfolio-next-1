@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Space+Grotesk&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Space+Grotesk&display=swap");
 
 * {
   padding: 0;
@@ -7,9 +7,29 @@
   text-decoration: none;
 }
 
-body, nav, Link {
+body,
+nav,
+Link {
   background-color: #1d1b30;
   color: rgb(122, 182, 231);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.3em;
+}
+.container {
+  padding: 0;
+  width: 50vw;
+  height: 75vh;
+  margin: 1em auto;
+}
+.container h1 {
+  font-size: 4em;
+  margin: 1.5em 0;
+}
+.container h2 {
+  font-size: 2em;
+  margin: 1.5em 0;
+}
+.text_lg {
+  font-size: 1.55rem;
+  margin-bottom: 1.5rem;
 }

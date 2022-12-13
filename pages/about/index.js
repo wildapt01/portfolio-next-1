@@ -1,5 +1,5 @@
 import Head from "next/head";
-// import styles from "../styles/About.module.css";
+import styles from "../../styles/About.module.css";
 // eslint-disable-next-line prettier/prettier
 import { aboutText } from "../../components/textContent.js";
 
@@ -10,11 +10,13 @@ const About = () => {
         <title>About</title>
         <meta name="about" content="a few words" />
       </Head>
-      <div>
+      <div className="container">
         <h2>About</h2>
         <div>
           {aboutText.map((parag, indx) => (
-            <p key={indx}>{parag}</p>
+            <p className={styles.parag} key={indx}>
+              {parag}
+            </p>
           ))}
         </div>
       </div>
