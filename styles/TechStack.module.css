@@ -2,10 +2,18 @@
   display: flex;
   justify-content: space-between;
 }
-.card {
-  height: 50vh;
-  width: 12vw;
-  color: black;
-  border-radius: 0.5em;
-  background-color: #a7b5bf;
+.card_title {
+  color: #dee2e4;
+  font-size: 1.2em;
+  margin: 1em 0;
+}
+.card_title,
+.list_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list_item {
+  padding: 0 0 0.7em 1.2em;
+  color: #a7b5bf;
 }

@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Divider from "../../components/Divider";
+import TechCard from "../../components/TechCard";
 import styles from "../../styles/TechStack.module.css";
+import { techCards } from "../../components/textContent";
 
 const TechStack = () => {
   return (
@@ -14,11 +16,14 @@ const TechStack = () => {
           <Divider />
           <h2>Technologies</h2>
         </section>
-
+        <p className="text_lg">
+          I have worked with a range of technologies in the web development
+          world, from back-end to design.
+        </p>
         <section className={styles.cards}>
-          <div className={styles.card}>Front End</div>
-          <div className={styles.card}>Back End</div>
-          <div className={styles.card}>Others</div>
+          {techCards.map((record, indx) => (
+            <TechCard props={record} key={indx} />
+          ))}
         </section>
       </div>
     </>
