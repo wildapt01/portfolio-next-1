@@ -20,17 +20,19 @@ export const techCards = [
   },
   {
     title: "Back-end",
-    items: [
-      "Node.js",
-      "Visual Studio",
-      "Firebase",
-      "SQL",
-      "PostgreSQL",
-      "Sequelize"
-    ]
+    items: ["Node.js", ".NET", "Firebase", "SQL", "PostgreSQL", "Sequelize"]
   },
   {
     title: "Others",
-    items: ["GIT + GitHub", "Trello", "Unit testing", "UXPin", "AWS", "Linux"]
+    items: [
+      "Git + GitHub",
+      "Trello",
+      "Unit testing",
+      "MochaJS",
+      "Jasmine",
+      "UXPin",
+      "AWS",
+      "Linux"
+    ]
   }
 ];
