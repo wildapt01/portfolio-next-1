@@ -11,9 +11,15 @@
 .list_item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .list_item {
   padding: 0 0 0.7em 1.2em;
   color: #a7b5bf;
+}
+.card {
+  width: 15vw;
+}
+.card_title div {
+  padding-left: 1em;
 }

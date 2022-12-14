@@ -4,7 +4,7 @@ import { VscListUnordered } from "react-icons/vsc";
 const TechCard = ({ props }) => {
   const { title, items } = props;
   return (
-    <div>
+    <div className={styles.card}>
       <section className={styles.card_title}>
         <VscListUnordered />
         <div>{title}</div>
