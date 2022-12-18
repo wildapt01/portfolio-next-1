@@ -1,8 +1,34 @@
 .card_text {
   text-align: justify;
-  font-size: 0.8em;
+  font-size: 1em;
+  padding-bottom: 0.5em;
 }
-
+.card_title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 8vw;
+  margin-top: 1.5em;
+}
+.card_header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+}
+.card_header:first-child {
+  padding: 0 1em 1em 0;
+}
+.card_list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card_header p {
+  padding-left: 1em;
+  padding-top: 3em;
+}
+.card_title > h3 {
+  width: 10vw;
+}
 .scrolling {
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */

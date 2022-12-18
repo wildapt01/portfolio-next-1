@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Divider from "../../components/Divider";
+import { Divider } from "../../components/Divider";
 import TechCard from "../../components/TechCard";
 import styles from "../../styles/TechStack.module.css";
 import { techCards } from "../../components/textContent";

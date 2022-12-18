@@ -1,7 +1,9 @@
 import styles from "../styles/Divider.module.css";
 
-const Divider = () => {
+export const Divider = () => {
   return <div className={styles.divider}></div>;
 };
 
-export default Divider;
+export const AltDivider = () => {
+  return <div className={styles.alt_divider}></div>;
+};

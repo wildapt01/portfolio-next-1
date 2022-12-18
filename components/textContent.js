@@ -55,7 +55,8 @@ export const projectsText = [
       "Unit testing",
       "Decreasing technical debt",
       "Increasing speed and ergonomy"
-    ]
+    ],
+    imageRef: "/asists1.png"
   },
   {
     title: "All Star Code",
@@ -64,6 +65,7 @@ export const projectsText = [
       "Trained a cohort of 17 high school students of color with little or no coding experience as part of the Summer Intensive bootcamp, hosted and funded by Goldman Sachs.",
       "Taught JavaScript, HTML, CSS, P5.js, API integration, Firebase usage as well as best practice, soft skills and core skills. Built parts of the day-to-day curriculum, projects and materials, collaborating with two Teaching Assistants and Goldman Sachs liaison."
     ],
-    points: []
+    points: [],
+    imageRef: "/all-star-code.png"
   }
 ];

@@ -1,4 +1,5 @@
-.divider {
+.divider,
+.alt_divider {
   width: 4em;
   height: 0.35em;
   border-radius: 0.5em;

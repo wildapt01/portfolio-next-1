@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Divider from "../../components/Divider";
+import { Divider } from "../../components/Divider";
 import styles from "../../styles/About.module.css";
 // eslint-disable-next-line prettier/prettier
 import { aboutText } from "../../components/textContent.js";
