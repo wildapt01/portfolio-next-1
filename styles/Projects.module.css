@@ -13,12 +13,12 @@
 .card_title a {
   color: #a7b5bf;
   border: 0.1em solid #a7b5bf;
-  border-radius: 1em;
+  border-radius: 0.75em;
   padding: 0.5em;
 }
 .card_title a:hover {
-  color: white;
-  border-color: white;
+  color: rgb(241, 214, 214);
+  border-color: rgb(241, 214, 214);
 }
 .card_header {
   display: flex;

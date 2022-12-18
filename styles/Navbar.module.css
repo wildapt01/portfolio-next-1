@@ -1,17 +1,16 @@
-.navbar{
+.navbar {
   height: 10vh;
   top: 0;
   position: sticky;
   display: flex;
   justify-content: space-around;
-
 }
 
-.navlogo{
+.navlogo {
   margin-top: 0.5em;
 }
 
-.nav_tabs{
+.nav_tabs {
   width: 50vw;
   padding-top: 1.5em;
   padding-left: 20vw;
@@ -20,7 +19,10 @@
   border-bottom: 2px solid grey;
 }
 
-.nav_tabs> a{
-  padding: 1.2em ;
-  color:rgb(122, 182, 231);
+.nav_tabs > a {
+  padding: 1.2em;
+  color: rgb(122, 182, 231);
+}
+.nav_tabs > a:hover {
+  color: rgb(241, 214, 214);
 }
