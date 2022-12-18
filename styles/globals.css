@@ -18,8 +18,8 @@ Link {
 .container {
   padding: 0;
   width: 50vw;
-  height: 75vh;
-  margin: 1em auto;
+  min-height: 70vh;
+  margin: 1em auto 7vh auto;
 }
 .container h1 {
   font-size: 4em;

@@ -2,13 +2,12 @@
   text-align: justify;
   font-size: 0.8em;
 }
-#projects {
-  z-index: -100;
-}
+
 .scrolling {
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
   overflow-y: scroll;
+  height: 60vh;
 }
 
 .scrolling::-webkit-scrollbar {
