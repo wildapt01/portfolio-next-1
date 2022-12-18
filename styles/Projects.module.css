@@ -10,6 +10,16 @@
   margin-left: 8vw;
   margin-top: 1.5em;
 }
+.card_title a {
+  color: #a7b5bf;
+  border: 0.1em solid #a7b5bf;
+  border-radius: 1em;
+  padding: 0.5em;
+}
+.card_title a:hover {
+  color: white;
+  border-color: white;
+}
 .card_header {
   display: flex;
   justify-content: space-between;

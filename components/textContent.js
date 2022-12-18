@@ -40,7 +40,7 @@ export const techCards = [
 export const projectsText = [
   {
     title: "ASISTS",
-    tech: "JavaScript | HTML5 | CSS3 | jQuery | QUnit.js | Bootstrap | .NET Core | SQL Server",
+    tech: "JavaScript | HTML5 | CSS3 | jQuery | QUnit.js | Bootstrap | .NET | SQL Server | mark-down",
     parags: [
       "ASISTS is the LAC web-based data management system for NY State adult literacy programs. As a delegation of the NY State Dept. Of Education, it provides over 800 users the tools to manage more than 215,000 active students and instructors, and to fulfill the National Reporting System requirements in accordance with Federal programs as well as State and Local-funded grants.",
       "I designed, implemented and coded from scratch the complete UX/UI overhaul while keeping general design and themes in line with legacy design and visual cues. This is now in production and we received very positive reactions from our users and stakeholders. They notably pointed at vastly easier data entry and a much improved, friendlier interface.",
@@ -56,7 +56,8 @@ export const projectsText = [
       "Decreasing technical debt",
       "Increasing speed and ergonomy"
     ],
-    imageRef: "/asists1.png"
+    imageRef: "/asists1.png",
+    linkURL: "https://asists.com/log-in/login.aspx"
   },
   {
     title: "All Star Code",
@@ -66,6 +67,7 @@ export const projectsText = [
       "Taught JavaScript, HTML, CSS, P5.js, API integration, Firebase usage as well as best practice, soft skills and core skills. Built parts of the day-to-day curriculum, projects and materials, collaborating with two Teaching Assistants and Goldman Sachs liaison."
     ],
     points: [],
-    imageRef: "/all-star-code.png"
+    imageRef: "/all-star-code.png",
+    linkURL: "https://youtu.be/v2PzaKG1A9c"
   }
 ];

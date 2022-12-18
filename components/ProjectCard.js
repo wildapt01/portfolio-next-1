@@ -3,15 +3,18 @@ import styles from "../styles/Projects.module.css";
 import { AltDivider } from "./Divider.js";
 
 const ProjectCard = ({ props }) => {
-  // const { objItem, indx } = props;
-  const { title, tech, parags, points, imageRef } = props;
+  const { title, tech, parags, points, imageRef, linkURL } = props;
   const pointsLeft = points.slice(0, 4);
   const pointsRight = points.slice(4);
   return (
     <>
       <div className={styles.card_title}>
         <AltDivider />
-        <h3>{title}</h3>
+        <h3>
+          <a href={linkURL} target="_blank" rel="noreferrer">
+            {title}
+          </a>
+        </h3>
       </div>
       <div>
         <div className={styles.card_header}>
