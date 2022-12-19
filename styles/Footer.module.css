@@ -1,12 +1,29 @@
-.footer {
-  text-align: center;
+.copyright {
+  font-size: 0.9em;
+  padding-left: 2em;
+}
+.social {
+  width: 15em;
+  margin-left: 5%;
+  grid-auto-rows: auto;
+}
+.social_icons {
+  color: rgb(122, 182, 231);
   font-size: 0.7em;
-  height: 5vh;
-  width: 100%;
+  width: 2em;
+  height: 2em;
+}
+.social > a {
+  padding: 1em 1em;
+}
+.footer {
+  padding-top: 1.5%;
   position: fixed;
   bottom: 0;
   left: 0;
-  padding-top: 1em;
-  /* z-index: 100; */
-  opacity: 1;
+  height: 4em;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
 }

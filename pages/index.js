@@ -9,13 +9,13 @@ export default function Home() {
       </Head>
       <div className="container">
         <h1>Hello, I am Patrick.</h1>
-        <p className="text_lg">
+        <p className="text_lg ">
           Software engineer, web developer and more generally an ever curious
           mind.
         </p>
         <p className="text_lg">
-          Going the extra mile is usually the easy part. Going the extra inch is
-          arduous.
+          Going the extra mile is usually the easy part. <br />
+          Going the extra inch is arduous.
         </p>
       </div>
     </>

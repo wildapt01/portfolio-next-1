@@ -8,11 +8,13 @@
 
 .navlogo {
   margin-top: 0.5em;
+  width: 4em;
+  height: 4em;
 }
 
 .nav_tabs {
   width: 50vw;
-  padding-top: 1.5em;
+  padding-top: 1.75em;
   padding-left: 20vw;
   justify-content: space-around;
   font-size: 0.8em;

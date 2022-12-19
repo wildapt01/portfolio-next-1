@@ -16,7 +16,7 @@ const TechStack = () => {
           <Divider />
           <h2>Technologies</h2>
         </section>
-        <p className="text_lg">
+        <p className="text_md">
           I have worked with a range of technologies in the web development
           world, from back-end to design.
         </p>

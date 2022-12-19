@@ -1,5 +1,6 @@
 .parag {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2em;
   text-align: justify;
 }
 .parag:first-of-type {

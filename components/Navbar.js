@@ -13,6 +13,11 @@ const Navbar = () => {
           width={70}
           height={70}
         />
+        {/* <img
+          className={styles.navlogo}
+          src="/clipart2381085.png"
+          alt="Computer Science Engineering Logos@clipartmax.com"
+        ></img> */}
       </div>
       <div className={styles.nav_tabs}>
         <Link href="/">Home</Link>
