@@ -7,7 +7,7 @@ const ProjectCard = ({ props }) => {
   const pointsLeft = points.slice(0, 4);
   const pointsRight = points.slice(4);
   return (
-    <>
+    <div className={styles.card}>
       <div className={styles.card_title}>
         <AltDivider />
         <h3>
@@ -40,7 +40,7 @@ const ProjectCard = ({ props }) => {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,3 +1,7 @@
+.card:last-of-type {
+  margin-top: 10%;
+}
+
 .card_text {
   text-align: justify;
   font-size: 1em;
@@ -36,6 +40,10 @@
   padding-left: 1em;
   padding-top: 3em;
 }
+.card_header img {
+  width: 18em;
+  height: 11em;
+}
 .card_title > h3 {
   width: 10vw;
 }
@@ -43,7 +51,7 @@
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
   overflow-y: scroll;
-  height: 60vh;
+  height: 65vh;
 }
 
 .scrolling::-webkit-scrollbar {
