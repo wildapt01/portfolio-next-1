@@ -1,7 +1,7 @@
 export const aboutText = [
   "From the moment I took apart an old radio to my last homebuilt wood cabinet, including a few PCs, a couple of vintage cars and house renovations, curiosity, discovery and building stuff have been the major impulses in my life.",
   "After a successful career as a chef, it was the perfect time to get back into technology and more specifically software development. As a software engineer at the Literacy Assitance Center in NYC, I undertook the complete redesign of LAC's main product, ASISTS, and this project is now in production.",
-  "We are a small team of two in a compact organization. This meant I wore a few hats: designer, code architect, and of course developer. Because ASITS has been going serving our users' needs for over 20 years in one form or another, dealing with legacy has been an important issue from the start."
+  "We are a small team of two in a compact organization. This meant I wore a few hats: designer, code architect, and of course developer. Because ASISTS has been serving our users' needs for over 20 years in one form or another, dealing with legacy has been an important issue from the start."
 ];
 
 export const techCards = [
@@ -44,7 +44,7 @@ export const projectsText = [
     tech: "JavaScript | HTML5 | CSS3 | jQuery | QUnit.js | Bootstrap | .NET | SQL Server | markdown",
     parags: [
       "ASISTS is the Literacy Assistance Center web-based data management system for NY State adult literacy programs. As a delegation of the NY State Dept. Of Education, it provides over 800 users the tools to manage more than 215,000 active students and instructors, and to fulfill the National Reporting System requirements in accordance with Federal programs as well as State and Local-funded grants.",
-      "I designed, implemented and coded from scratch the complete UX/UI overhaul while keeping general design and themes in line with legacy design and visual cues. This is now in production and we received very positive reactions from our users and stakeholders. They notably pointed at vastly easier data entry and a much improved, friendlier interface.",
+      "I designed, implemented and coded from scratch the complete UX/UI overhaul while keeping general design and themes in line with legacy design and visual cues. This is now in production and we have received an overwhelmingly positive feedback from our users and stakeholders. They notably pointed at vastly easier data entry and a much improved, friendlier interface.",
       "Some of what was achieved: "
     ],
     points: [
