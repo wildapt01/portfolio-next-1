@@ -39,12 +39,12 @@ Link {
 .text_md {
   font-size: 1.3em;
 }
-
 .section-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 /* Media queries
  =========================== */
 /* 27" monitor */

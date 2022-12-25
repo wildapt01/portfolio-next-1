@@ -72,3 +72,29 @@ export const projectsText = [
     linkURL: "https://youtu.be/v2PzaKG1A9c"
   }
 ];
+
+export const persoContent = [
+  {
+    title: "Portfolio",
+    tech: "NextJS | ReactJS | CSS | Vercel",
+    parags: [
+      "We are developers thus it makes perfect sense to develop our own portfolio. It is a fantastic opportunity to get to know some great tools like NextJS and Vercel hosting as well as practice some React and JSX."
+    ],
+    imageRef: "/portfolio1.png",
+    linkURL: "/",
+    githubLink: "https://github.com/wildapt01/portfolio-next-1",
+    buttonText: ["Site", "Code"]
+  },
+  {
+    title: "Cachou's Lair",
+    tech: "HTML | CSS | JS | GitHub pages",
+    parags: [
+      "My KISS project! It can't get simpler than this: vanilla JS + HTML + CSS, 13KB without the images, deployed with GitHub pages and just one small added library.",
+      "As basic as it is, this clean project helped me get my last two roles. It's a great example that there's no need to get complicated to get hired."
+    ],
+    imageRef: "/cachouslair.png",
+    linkURL: "https://wildapt01.github.io/cachou-lair/",
+    githubLink: "https://github.com/wildapt01/cachou-lair",
+    buttonText: ["Site", "Code"]
+  }
+];
