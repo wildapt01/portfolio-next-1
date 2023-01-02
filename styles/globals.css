@@ -52,12 +52,19 @@ Link {
   body {
     font-size: 22px;
   }
+  .nav_tabs{
+    padding-left: 28vw;
+  }
 }
 /* 15" laptop */
 @media screen and (1590px<width<2200px) {
   body {
     font-size: 18px;
   }
+    .nav_tabs{
+    padding-left: 25vw;
+  }
+
 }
 /* 13" XPS laptop */
 @media screen and (width<1590px) {
