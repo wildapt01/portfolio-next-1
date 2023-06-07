@@ -86,6 +86,18 @@ export const persoContent = [
     buttonText: ["Site", "Code"]
   },
   {
+    title: "Coffee Machine Simulator",
+    tech: "HTML | CSS | JS | GitHub pages",
+    parags: [
+      "Coffee is certainely one of the few things that make the world go round, at least my world! To get to understand OOP and JS Classes a bit better, I set up this charming simulator.",
+      "This project is kept simple with Javascript. HTML and CSS. Still a work in progress, it presented some interesting challenges."
+    ],
+    imageRef: "/coffee-machine.png",
+    linkURL: "https://wildapt01.github.io/coffee-machine-js/",
+    githubLink: "https://github.com/wildapt01/coffee-machine",
+    buttonText: ["Site", "Code"]
+  },
+  {
     title: "Cachou's Lair",
     tech: "HTML | CSS | JS | GitHub pages",
     parags: [
