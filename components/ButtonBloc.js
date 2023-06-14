@@ -4,16 +4,16 @@ const ButtonBloc = ({ props }) => {
   const { linkURL, githubLink, buttonText } = props;
   return (
     <div className={styles.button_container}>
-      <h3>
+      <div>
         <a href={linkURL} target="_blank" rel="noreferrer">
           {buttonText[0]}
         </a>
-      </h3>
-      <h3>
+      </div>
+      <div>
         <a href={githubLink} target="_blank" rel="noreferrer">
           {buttonText[1]}
         </a>
-      </h3>
+      </div>
     </div>
   );
 };

@@ -11,6 +11,7 @@ const PersoCard = ({ props }) => {
         <Image src={imageRef} alt="project image" width={500} height={320} />
         <h3>{title}</h3>
         <p>{tech}</p>
+        <ButtonBloc props={{ linkURL, githubLink, buttonText }} />
       </div>
       <div className={styles.perso_card_text}>
         {parags.map((content, indx) => (
@@ -19,7 +20,6 @@ const PersoCard = ({ props }) => {
           </p>
         ))}
       </div>
-      <ButtonBloc props={{ linkURL, githubLink, buttonText }} />
     </div>
   );
 };

@@ -32,6 +32,8 @@
   color: #a7b5bf;
   border: 0.1em solid #a7b5bf;
   border-radius: 0.75em;
+}
+.card_title a {
   padding: 0.5em;
 }
 .card_title a:hover,
@@ -76,15 +78,17 @@
   height: 15em;
 }
 .card_container {
-  height: 37em;
-  width: 22vw;
+  height: 30em;
+  width: 23vw;
+  margin-bottom: 1.5em;
 }
 .perso_container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .card_container h3 {
-  margin: 3% 0;
+  margin: 2% 0 1% 0;
 }
 .perso_card_header p {
   margin-bottom: 3%;
@@ -93,14 +97,19 @@
   display: flex;
   justify-content: space-evenly;
 }
-.button_container > h3 {
-  width: 5em;
+.button_container > div {
+  width: 8em;
   height: 2em;
+  text-align: center;
+  /* display: block; */
 }
 .button_container a {
-  width: 100%;
+  width: 5em;
+  font-size: 0.8em;
+  padding: 0.4em;
+  display: inline-block;
 }
 .perso_card_text {
   height: 13em;
-  font-size: 0.85em;
+  font-size: 0.8em;
 }
