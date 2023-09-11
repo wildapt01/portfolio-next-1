@@ -109,7 +109,7 @@ export const persoContent = [
     tech: "HTML | CSS | JS | GitHub pages",
     parags: [
       "My KISS project! It can't get simpler than this: vanilla JS + HTML + CSS, 13KB without the images, deployed with GitHub pages and just one small added library.",
-      "As basic as it is, this clean project helped me get my last two roles. It's a great example that there's no need to get complicated."
+      "As basic as it is, this clean project is a great example that there's no need to get complicated."
     ],
     imageRef: "/cachouslair.png",
     linkURL: "https://wildapt01.github.io/cachou-lair/",
