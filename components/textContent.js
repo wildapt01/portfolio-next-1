@@ -97,7 +97,7 @@ export const persoContent = [
     title: "Coffee Machine Simulator",
     tech: "HTML | CSS | JS | GitHub pages",
     parags: [
-      "Coffee is certainely one of the few things that make the world go round, at least my world! The motivation at this project's root is to better understand OOP and JS Classes. This project is kept simple with Javascript. HTML and CSS. Still a work in progress, it presented some interesting challenges."
+      "Coffee is certainely one of the few things that make the world go round, at least my world! The motivation here is to better understand OOP and JS Classes. This project is kept simple with Javascript, HTML and CSS with some interesting challenges."
     ],
     imageRef: "/coffee-machine2.png",
     linkURL: "https://wildapt01.github.io/coffee-machine-js/",
