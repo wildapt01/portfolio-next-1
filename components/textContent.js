@@ -10,7 +10,7 @@ export const techCards = [
     items: [
       "HTML + CSS",
       "JavaScript",
-      "React + Redux",
+      "React, Redux",
       "Next.js",
       "jQuery",
       "Bootstrap",
@@ -21,7 +21,14 @@ export const techCards = [
   },
   {
     title: "Back-end",
-    items: ["Node.js", ".NET", "Firebase", "SQL", "PostgreSQL", "Sequelize"]
+    items: [
+      "Node.js",
+      "C#, .NET",
+      "Firebase",
+      "MS SQL Server",
+      "PostgreSQL",
+      "Sequelize"
+    ]
   },
   {
     title: "Others",
@@ -34,7 +41,7 @@ export const techCards = [
       "UXPin",
       "AWS",
       "Linux",
-      "Microsoft 365"
+      "MS 365"
     ]
   }
 ];
